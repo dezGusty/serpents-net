@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>*.*</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Serpents">
+      <UniqueIdentifier>{79b6587e-bf83-42aa-b0d4-66520ef130f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serpents\ControlPlanar">
+      <UniqueIdentifier>{bbc351ec-eb5a-4563-91c9-09cdd94ec647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serpents\GusUtils">
+      <UniqueIdentifier>{f02391d7-460f-4612-9a0f-5fd7121add12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{99ea638c-f9d9-4a0d-9e29-28b1b55f0e0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="FormSerpents1.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayForm.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyPart.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyController.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="PathStrip.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="Serpent.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="SerpentsController.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="SerpentsEngine.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualEngine.cpp">
+      <Filter>Serpents</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Serpents\ControlPlanar</Filter>
+    </ClCompile>
+    <ClCompile Include="GusRandom.cpp">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="GusUtils.cpp">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomInterface.cpp">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="TGKeyDefs.cpp">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp" />
+    <ClCompile Include="color_rgb.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayForm.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyPart.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyController.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="PathStrip.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="Serpent.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="SerpentsController.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="SerpentsEngine.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualEngine.h">
+      <Filter>Serpents</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Serpents\ControlPlanar</Filter>
+    </ClInclude>
+    <ClInclude Include="GusRandom.h">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="GusUtils.h">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomInterface.h">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="TGKeyDefs.h">
+      <Filter>Serpents\GusUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tester.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h" />
+    <ClInclude Include="idrawablearea.h" />
+    <ClInclude Include="color_rgb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PlayForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

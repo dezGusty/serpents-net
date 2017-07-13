@@ -1,4 +1,5 @@
 serpents-net
 ============
 
-Network library &amp; utilities for Serpents
+(original code from ~2007)
+.net implementation of Serpents Snake-like game.
